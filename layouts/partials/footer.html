@@ -1,0 +1,9 @@
+		<div class="container">
+			<div id="footer">
+        <p>&#xA9; 2018 N.J. George Stove Installations - Call us on <a href="tel:07812%20412%20030">07812 412 030</a> or <a href="tel:01934%20843%20833">01934 843 833</a> to arrange a free survey and quotation.</p>
+			</div>
+		</div>
+
+    {{ $styles := resources.Get "styles/site.css" | minify | fingerprint }}
+    <link href="{{ $styles.Permalink }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: favicon.ico
+Disallow: styles/
+Disallow: js/
+Disallow: fonts/
+Sitemap: https://njgeorgestoveinstallations.co.uk/sitemap.xml
