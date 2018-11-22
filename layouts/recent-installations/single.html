@@ -5,18 +5,17 @@
 	 {{ partial "header.html" . }}
 	 {{ partial "navigation.html" . }}
    <div id="content">
-			<!-- The content block should contain the body of your template's content-->
       <div class="container">
 			  <div style="padding: 10px; max-width: 1100px;">
           <h1>{{ .Title }}</h1>
-{{ $cdnBaseUrl := "https://dns6oa2cqpo7v.cloudfront.net/" }}
-<p>We're very proud of the high quality work we do. Take a look at some of our recent installations and see for yourself...</p>
-<div class="gallery-wrapper">
-{{ range .Site.Data.recent_installations }}
-  <div class="thumbnail-wrapper test">
-    <a href="{{ $cdnBaseUrl }}{{ .main }}" data-title="{{ .title }}" data-lightbox="installations"><img src="{{ $cdnBaseUrl }}{{ .thumb }}" alt="{{ .title }}"></a>
-  </div>
-{{ end }}
+          <p>We're very proud of the high quality work we do. Take a look at some of our recent installations and see for yourself...</p>
+          <div class="gallery-wrapper">
+          {{ $cdnBaseUrl := "https://dns6oa2cqpo7v.cloudfront.net/" }}
+          {{ range .Site.Data.recent_installations }}
+            <div class="thumbnail-wrapper test">
+              <a href="{{ $cdnBaseUrl }}{{ .main }}" data-title="{{ .title }}" data-lightbox="installations"><img src="{{ $cdnBaseUrl }}{{ .thumb }}" alt="{{ .title }}"></a>
+            </div>
+          {{ end }}
         </div>
       </div>
 	  </div>
