@@ -1,3 +1,6 @@
 baseURL = "https://njgeorgestoveinstallations.co.uk"
 languageCode = "en-gb"
 title = "N.J. George Stove Installations"
+[taxonomies]
+  tag = ""
+  category = ""
