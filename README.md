@@ -1,6 +1,6 @@
 # [N.J. George Stove Installations](https://njgeorgestoveinstallations.co.uk/)
 
-Local business website built with Hugo, the Go-Lang static site generator
+HETAS approved stove installation business website built with Hugo, the Go-Lang static site generator
 
 ![](screenshot.png)
 
