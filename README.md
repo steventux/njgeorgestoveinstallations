@@ -2,6 +2,8 @@
 
 Local business website built with Hugo, the Go-Lang static site generator
 
+![](screenshot.png)
+
 ## Dependencies
 
 - [Go-Lang](https://golang.org/) 
