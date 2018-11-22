@@ -3,4 +3,6 @@ Disallow: favicon.ico
 Disallow: styles/
 Disallow: js/
 Disallow: fonts/
+Disallow: categories/
+Disallow: tags/
 Sitemap: https://njgeorgestoveinstallations.co.uk/sitemap.xml
